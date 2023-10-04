@@ -1,92 +1,110 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Valentina CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          src="avatar.jpg"
+          width="150"
+          alt="тут моя фотография"
+          class="avatar"
+        />
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Valentina CV</title>
-</head>
+        <div class="info-text">
+          <h1>Валентина Кулешова</h1>
+          <p>Я закончила в <strong>2022 году</strong> университет</p>
+          <p>Я люблю путешествовать, бегать по средам и свою работу</p>
 
-<body>
-  <table cellspacing="15">
-    <tr>
-      <td>
-        <img src="avatar.jpg" width="150" alt="тут моя фотография">
-      </td>
-      <td>
-        <h1>Валентина Кулешова</h1>
-        <p>Я закончила в <strong>2022 году</strong> университет</p>
-        <p><em>Я люблю путешествовать, бегать по средам и свою работу</em></p>
-      </td>
-    </tr>
-  </table>
+          <h4>Мои социальные сети</h4>
+          <a href="https://vk.com/valentina____k" target="_blank">Вконтактe</a>
+          |
+          <a href="https://instagram.com/valentina___cool?igshid=MzRlODBiNWFlZA=="
+            target="_blank">
+            Запрещенная соц сеть</a>
+          |
+          <a href=" https://t.me/valentinka_cool" target="_blank">Телеграмм</a>
+        </div>
+      </div>
 
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Бег</li>
+          <li>Англиский язык</li>
+          <li>Расстяжка</li>
+          <li>Пилатес</li>
+        </ol>
+      </div>
 
-  <hr>
-  <h2>Мои социальные сети</h2>
-  <ul>
-    <li><a href="https://vk.com/valentina____k" target="_blank">Вконтактe</a></li>
-    <li><a href="https://instagram.com/valentina___cool?igshid=MzRlODBiNWFlZA==" target="_blank">Запрещенная соц
-        сеть</a></li>
-    <li><a href=" https://t.me/valentinka_cool" target="_blank">Телеграмм</a></li>
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>Магнит</td>
+            <td>Разработчик</td>
+            <td>Отдел разработки Спринт и Оракл</td>
+            <td>2020-2023</td>
+          </tr>
+          <tr>
+            <td>Магнит</td>
+            <td>Разработчик</td>
+            <td>Отдел МДМ</td>
+            <td>2023-2024</td>
+          </tr>
+        </table>
+      </div>
 
-    <hr>
+      <div class="card bg-red">
+        <h2>Youtube Курсы</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=1776s"
+              >Создание HTML-основы для одностраничного сайта</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=1726s"
+              >Работа с CSS для одностраниченого сайта
+            </a>
+          </li>
+        </ul>
+      </div>
 
-  </ul>
-  <h2>Мои хобби</h2>
-  <ol>
-    <li>Бег</li>
-    <li>Англиский язык</li>
-    <li>Расстяжка</li>
-    <li>Пилатес</li>
-  </ol>
-  <hr>
+      <div class="contact">
+        <h2>Связаться со мной</h2>
 
-  <h2>Опыт работы</h2>
-  <table>
-    <tr>
-      <th>Компания</th>
-      <th>Должность</th>
-      <th>Отдел</th>
-      <th>Год</th>
-    </tr>
-    <tr>
-      <td>Магнит</td>
-      <td>Разработчик</td>
-      <td>Отдел разработки Спринт и Оракл</td>
-      <td>2020-2023</td>
-    </tr>
-    <tr>
-      <td>Магнит</td>
-      <td>Разработчик</td>
-      <td>Отдел МДМ</td>
-      <td>2023-...</td>
-    </tr>
-  </table>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" placeholder="enter you name" />
+            </div>
 
-  <hr>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input type="email" id="email" placeholder="enter you email" />
+            </div>
 
-  <h2>Youtube vidio </h2>
-  <a href="youtube.html"> look list</a>
-  </h2>
+            <div class="form-group">
+              <label for="text">Your message</label>
+              <textarea name="" id="text" cols="15" rows="2"></textarea>
+            </div>
 
-  <hr>
+            <input class="btn" type="submit" value="Connect" />
+          </div>
+        </form>
+      </div>
 
-  <h2> Связаться со мной</h2>
-  <form action="/">
-    <label for="name">Your name</label>
-    <input type="text" id="name" placeholder="enter you name">
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
 
-    <br>
-    <label for="email">Your email</label>
-    <input type="email" id="email" placeholder="enter you email">
-    <br>
-
-    <label for="text">Your message</label>
-    <br>
-    <textarea name="" id="text" cols="15" rows="2"></textarea>
-    <br>
-    <input type="submit" value="Connect">
-  </form>
-</body>
-
+    <div style="margin-bottom: 500px"></div>
+  </body>
 </html>
